@@ -1,0 +1,96 @@
+/* 
+selector 
+. class classe de elementos
+# id -> elemento especifico
+element
+element.class
+elemnt element
+*/
+
+/* 
+Main props
+@input aceita nome, rgb, rgba, hex
+background-color -> muda cor de fundo
+
+margin -> fora do elemento
+
+padding -> dentro do elemento
+
+border -> contorno
+
+border-radius
+
+@input 
+display: flex
+
+@input aceita row, column
+flex-direction -> configura a ordem dos elementos
+
+@input px, %, vh
+width -> define largura
+
+@input px, %, vh
+heigth -> define altura
+
+align-items -> alinha no centro horizontal
+
+justify-content -> alinha vertical
+
+color
+
+
+:hover-> ao passar o mouse
+
+:focus -> ao clicar ou interagir
+
+*/
+body{
+  background-color: rgb(110, 231, 231,0.5);
+}
+
+#login_form{
+  width: 80%;
+  margin:15px;
+  padding:20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input:focus{
+  border-width: 1px;
+  border-color: rgb(23, 200, 61);
+}
+
+.input{
+  margin: 2%;
+  padding: 2%;
+  height: 20px;
+  /* background-color: rgb(153, 153, 153); */
+  border-radius: 5px;
+  /* border-color: rgb(26, 26, 26); */
+  border-width: 1px;
+  color:red;
+}
+
+
+.button{
+  margin:1%;
+  padding:5%;
+  font-size: 1.05em;
+  border-radius: 5px;
+  background-color:tomato;
+}
+
+.button:hover{
+    background-color: rgb(192, 61, 38);
+}
+
+.div_input{
+    margin: 1%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
